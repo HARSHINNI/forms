@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color:rgb(21, 14, 63);
+  padding:70px;
+}
+.container {
+    padding: 50px 200px;
+  background-color:rgb(74, 62, 88);
+  
+}
+
+input[type=text], input[type=password], textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: orange;
+  outline: none;
+}
+ div {
+            padding: 10px 0;
+         }
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 20px;
+}
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.registerbtn:hover {
+  opacity: 1;
+}
+</style>
+
+<center><h1 style="color:snow">FreeCodeCamp Survey Form</h1></center>
+<center><p style="color: snow">Thank you for taking the time to help us improve the platform</p></center>
+>
+</head>
+<body>
+<form>
+  <div class="container">  
+  
+  <label style="color: #f1f1f1;"> Name </label> 
+<input type="text" name="Name" placeholder= "name" size="15" required /> 
+<label style="color: #f1f1f1;"> Email </label> 
+<input type="text" name="Email" placeholder="email" size="15" required /> 
+<label style="color: #f1f1f1;"> Age </label>  
+<input type="text" name="Age" placeholder="Optional" size="15"required /> 
+<label style="color: #f1f1f1;"> 
+Which option best describes your current role?
+<br>
+<br>
+</label> 
+<select>
+<option value="Select role">Course</option>
+<option value="System manager">system manager</option>
+<option value="Manager">manager</option>
+<option value="Accountant">accountant</option>
+</select>
+<br>
+<br>
+<label style="color: #f1f1f1;"> 
+Would you recommand freecodecamp to your friend:
+</label>
+<br>
+<br>
+<input type="radio" value="Yes" name="yes" checked > yes <br>
+<input type="radio" value="No" name="no"> No<br>
+<input type="radio" value="Not sure" name="not sure"> Not sure<br>
+<br>
+<br>
+<label style="color: #f1f1f1;"> 
+Which is your favourite feature of codechamp<br><br>
+</label> 
+<select>
+<option value="Select role">Features</option>
+<option value="System manager">easy code</option>
+<option value="Manager">reusabiltiy</option>
+<option value="Accountant">Understandable</option>
+</select>
+<br>
+<br>
+<label style="color: #f1f1f1;"> 
+Would you like to see improved?:
+</label><br>
+<input type="radio" value="Front end projects" name="Front end projects" checked >front end projects <br>
+<input type="radio" value="Data visualiasation" name="Data visualiasation">Data visualiasation<br>
+<input type="radio" value="Challenges" name="Challenges"> Challenges<br>
+<input type="radio" value="Open source community" name="Open source community"> Open source community<br>
+<input type="radio" value="Wiki" name="Wiki"> Wiki<br>
+<input type="radio" value="Forum" name="Forum"> Forum<br>
+<br>
+<br>
+
+Suggestions :
+<textarea cols="80" rows="5" placeholder="Current Address" value="address" required></textarea>
+    <tr>
+     <center>   <td style="color: #f1f1f1;" colspan="2"><input type="submit" class="submit" value="Submit" /></td></center>
+      </tr>
+
+</div>
+</form>
+</body>
+</html>
